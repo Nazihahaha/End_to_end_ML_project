@@ -39,7 +39,7 @@ class InputeForm(FlaskForm):
         label="Duration",
         validators=[DataRequired()]
     )
-    total_stope=IntegerField(
+    total_stops=IntegerField(
         label="Total Stops",
         validators=[DataRequired()]
     )

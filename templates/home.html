@@ -1,0 +1,13 @@
+{% extends "layout.html"%}
+<!--curly braces mean jinja code, inheriting layout.html-->
+
+{% block content %}
+<!--whatever is written here will be shown in the home page-->
+
+<div>
+    <h3>This is a flight prices prediction model based on machine learning</h3>
+    <a href=" {{url_for('predict')}}"> Click Here! </a></p>
+</div>
+    
+   
+{% endblock content %}

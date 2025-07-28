@@ -1,4 +1,5 @@
 from flask import Flask
+from forms import InputeForm
 
 app = Flask(__name__)
 
